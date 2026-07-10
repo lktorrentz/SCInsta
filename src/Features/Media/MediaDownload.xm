@@ -296,7 +296,8 @@ static void initDownloaders () {
     IGStoryFullscreenSectionController *captionDelegate = self.captionDelegate;
     if (captionDelegate) {
         videoUrl = [SCIUtils getVideoUrlForMedia:captionDelegate.currentStoryItem];
-    } else {
+    }
+    else {
         // Direct messages video player
         id parentVC = [SCIUtils nearestViewControllerForView:self];
         if (!parentVC || ![parentVC isKindOfClass:%c(IGDirectVisualMessageViewerController)]) return;
