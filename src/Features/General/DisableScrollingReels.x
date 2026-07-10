@@ -28,8 +28,7 @@
 - (void)setIsEnabled:(BOOL)enabled {
     if ([SCIUtils getBoolPref:@"disable_scrolling_reels"]) {
         %orig(NO);
-    }
-    else {
+    } else {
         %orig(enabled);
     }
 }

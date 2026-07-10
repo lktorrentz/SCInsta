@@ -54,8 +54,7 @@
         [sender setTintColor:UIColor.labelColor];
 
         [SCIUtils showToastForDuration:4.5 title:@"Visual messages can be replayed without expiring"];
-    }
-    else {
+    } else {
         dmVisualMsgsViewedButtonEnabled = true;
         [sender setTintColor:SCIUtils.SCIColor_Primary];
 

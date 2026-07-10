@@ -17,8 +17,7 @@
         } else {
             return %orig;
         }
-    }
-    else {
+    } else {
         return %orig;
     }
 }
